@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lekton:ital,wght@0,400;0,700;1,400&family=Luckiest+Guy&family=Montserrat:wght@400;700&family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    background-color: #FFFFFF;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /* font-family: 'Lekton', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.active{
+    color: inherit;
+    background-color: white;
+}
